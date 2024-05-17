@@ -1,0 +1,89 @@
+body {
+    background-color: #ded4d4 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 101, 22);
+    border: 2px solid rgb(14, 101, 22);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    width: 100%;
+    min-width: 200px;
+    max-width: 945px;
+    height: 15vh;
+}
+
+article {
+    background-color: #f6e8e8;
+    border: 2px solid #ccc;
+    width: 100%;
+    min-width: 200px;
+    max-width: 945px;
+    height: 40vh;
+    overflow-y: scroll;
+}
+
+.actions-message {
+    display: flex;
+    justify-items: space-between;
+    width: 59.2rem;
+    height: 6rem;
+}
+
+.input-message {
+    width: 100%;
+    min-width: 200px;
+    max-width: 900px;
+    font-size: 16px;
+}
+.input-message:active {
+    outline: none;
+}
+
+.button-send {
+    width: 6rem;
+    height: 5.8rem;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(220, 220, 220);
+    cursor: pointer;
+}
+
+.emitente {
+    background-color: rgb(238, 175, 154);
+    color: #333;
+    width: fit-content;
+    font-size: x-large;
+    padding: 0.8rem;
+    margin: 0.5rem;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 0.3rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.remetente {
+    background-color: #a6ed7f;
+    font-size: x-large;
+    color: #333;
+    width: fit-content;
+    padding: 0.8rem;
+    margin: 0.5rem;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 0.3rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.air-plane-icon {
+    width: 3rem;
+    height: 3rem;
+    color: rgb(14, 101, 22);
+}

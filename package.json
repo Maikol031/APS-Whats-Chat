@@ -1,0 +1,20 @@
+{
+  "name": "aps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Maikol",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "module": "^1.2.5",
+    "nodemon": "^3.1.0",
+    "socket.io": "^4.7.5"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "npx nodemon server.js"
+  },
+  "description": ""
+}
